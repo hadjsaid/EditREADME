@@ -52,7 +52,7 @@ Exemple de commande sur le terminal : php artisan migrate & php artisan make:m
 #Des tests à faire : Que pouvez-vous tester sur notre blog ?
 
                  1- L’authentification et l’oubli des mot de passe :
-**Création d’un compte de connexion pour accéder au site**
+Création d’un compte de connexion pour accéder au site**
 
                 2- L’accès au contenu des articles:
 Chaque titre d’un article constitue un lien qui renvoi sur le contenu complet de l’article***
