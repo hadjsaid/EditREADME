@@ -63,4 +63,4 @@ Le clic sur le titre d’un article vous renvoie sur la page complète de l’ar
                4- La page contact:
 Une page contact permet aux visiteurs du site de nous contacter. Et une fois le message soumis, va s’afficher la liste de toutes les personnes qui nous ont déjà écrit. ***
 
-A rappeler que chacune des actions d’un utilisateur constitue un enregistrement de plus dans notre BD du blog. Par exemple, si quelqu’un nous soumet un message à travers le formulaire de contact, son nom, adresse mail et message s’enregistrent automatiquement sur notre Bases de données.
+A rappeler que chacune des actions d’un utilisateur constitue un enregistrement de plus dans la BD du blog. Par exemple, si quelqu’un nous soumet un message à travers le formulaire de contact, son nom, son adresse mail et son message sont automatiquement stockés sur notre Base de données.
