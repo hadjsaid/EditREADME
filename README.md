@@ -5,8 +5,6 @@
 
 DevWeb est un mini-site réalisé dans le cadre d’une formation sur le Framework LARAVEL. L’objectif, nous faire découvrir cette technologie à travers un projet concret afin que chaque participant puisse savoir y coder une application basique. Nous, notre projet est composé d’une page d’accueil, d’une page articles et d’une page contact. Ces rubriques sont dynamiques grâce à une base de données (PHPLITE) et au principe d’authentification. Pour avoir accès à l’ensemble au site, l’utilisateur ou visiteur doit préalablement créer son compte et ou s’identifier. 
 
-![Page de login](./images/accueil.png)
-
 #Guide d’installation Laravel: https://laravel.com/docs/5.8)
 
 - Le début d’un projet Laravel commence par l’Installation de Composer pour la gestion des dépendances :
@@ -57,12 +55,12 @@ Exemple de commande sur le terminal : php artisan migrate & php artisan make:m
 **Création d’un compte de connexion pour accéder au site**
 
                 2- L’accès au contenu des articles:
-**Chaque titre d’un article constitue un lien qui renvoi sur le contenu complet de l’article***
+Chaque titre d’un article constitue un lien qui renvoi sur le contenu complet de l’article***
 
                3- Possibilité de laisser des commentaires sur chaque article
-**Le clic sur le titre d’un article vous renvoie sur la page complète de l’article. Et en bas de chaque article, vous avez la possibilité de laisser un commentaire**
+Le clic sur le titre d’un article vous renvoie sur la page complète de l’article. Et en bas de chaque article, vous avez alors la possibilité de laisser un commentaire**
 
                4- La page contact:
-**Une page contact permet aux visiteurs du site de contacter nous contacter. Et une fois le message soumis, va s’afficher la liste de toutes les personnes qui nous ont déjà écrit. ***
+Une page contact permet aux visiteurs du site de nous contacter. Et une fois le message soumis, va s’afficher la liste de toutes les personnes qui nous ont déjà écrit. ***
 
 A rappeler que chacune des actions d’un utilisateur constitue un enregistrement de plus dans notre BD du blog. Par exemple, si quelqu’un nous soumet un message à travers le formulaire de contact, son nom, adresse mail et message s’enregistrent automatiquement sur notre Bases de données.
